@@ -1,4 +1,4 @@
-/*var http = require("http");
+var http = require("http");
 
 const httpServer = http.createServer(handleServer).listen(8081);
 
@@ -22,7 +22,8 @@ function handleServer(req, res) {
   }
 }
 
-module.exports = httpServer;*/
+module.exports = httpServer;
+/*
 const express = require('express');
 const app = express();
 
@@ -45,3 +46,4 @@ email: 'guestcaredominos@jublfood.com'
 });
 app.listen(8081);
 module.exports = app;
+*/
