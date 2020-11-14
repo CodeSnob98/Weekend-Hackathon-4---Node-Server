@@ -44,3 +44,4 @@ email: 'guestcaredominos@jublfood.com'
   res.send(data);
 });
 app.listen(8081);
+module.exports = app;
